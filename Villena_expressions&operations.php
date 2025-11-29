@@ -2,7 +2,7 @@
 <?php
 $name = 'Camilla';
 $best_sellers = ['Chocolate', 'Strawberry', 'Biscoff', 'Vanilla'];
-$items_price = '10';
+$items_price = 10;
 $items_bought = '10';
 $subtotal = $item_price * $items_bought;
 $tax = ($subtotal / 100) * 20;
