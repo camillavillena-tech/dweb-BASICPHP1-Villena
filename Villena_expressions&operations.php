@@ -3,7 +3,7 @@
 $name = 'Camilla';
 $best_sellers = ['Chocolate', 'Strawberry', 'Biscoff', 'Vanilla'];
 $items_price = 10;
-$items_bought = '10';
+$items_bought = 10;
 $subtotal = $item_price * $items_bought;
 $tax = ($subtotal / 100) * 20;
 $total = $subtotal + $tax;
@@ -36,8 +36,6 @@ switch ($candy_choice) {
 }
 ?>
 
-
-<body>
     <h1>The Candy Store</h1>
     <h2>Welcome <?= $name ?></h2>
 
@@ -51,13 +49,13 @@ switch ($candy_choice) {
     </ul>
     <h2>Shopping Summary</h2>
     <p>Items Bought: <?= $items_bought ?></p>
-    <p>Price per Item: <?= $item_price ?></p>
+    <p>Price per Item: <?= $items_price ?></p>
     <p>Subtotal: <?= $subtotal ?></p>
     <p>Tax (20%): <?= $tax ?></p>
     <p>Total: <?= $total ?></p>
 
     <h2>Purchase Message</h2>
-    <p><?= $message ?></p>
+    <p><?= $output ?></p>
 
     <h2>Flavor Information</h2>
     <p><?= $candy_msg ?></p>
