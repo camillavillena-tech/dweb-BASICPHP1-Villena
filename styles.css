@@ -6,10 +6,10 @@ html, body {
 
 body {
   font-family: "Raleway", sans-serif;
-  background-color: #F7C8D0;
-  color: #FBE3C8;
+  background-color: #FDECF3;
+  color: #D65A84;  
   margin: 0px;
-  background-image: url("../img/candy.png");
+  background-image: url("img/icecream.png");
   background-size: 245px 380px;
   background-position: right top;
   background-repeat: repeat-y;
@@ -19,7 +19,7 @@ h1 {
   font-family: "Playfair Display", serif;
   padding: 10px 20px 12px 20px;
   margin: 0px;
-  color: #3AB7C4;
+  color: #F07BA6;
 }
 
 h2 {
@@ -29,18 +29,20 @@ h2 {
   letter-spacing: 0.1em;
   padding: 20px;
   margin: 0px;
+  color: #D65A84;
 }
 
 p {
   padding: 6px 20px 6px 20px;
   margin: 0px;
+  color: #D65A84;
 }
 
 table {
-  background-color: #850825;
+  background-color:  #F8C9D8;
   margin: 10px;
   padding: 5px;
-  border: 1px solid #fbccbf;
+  border: 1px solid #F07BA6;
   border-spacing: 0px;
 }
   
@@ -50,16 +52,17 @@ th {
   font-size: 0.75em;
   letter-spacing: 0.2em;
   padding: 5px 10px;
-  background-color: #fbccbf;
-  color: #850825;
+  background-color: #F07BA6;
+  color: #FFF9FC;    
 }
   
 td {
   padding: 5px 10px;
+  color: #D65A84;
 }
 
 a {
-  color: #fbccbf;
+  color: #F07BA6;
   letter-spacing: 1px;
   font-weight: 600;
   font-style: normal;
@@ -68,21 +71,22 @@ a {
 
 nav {
   padding: 0.5em;
-  background-color: #F3A7A7;
+  background-color: #F8C9D8;
 }
 
 nav a {
   text-transform: uppercase;
   padding: .5em;
+  color: #D65A84; 
 }
 nav a:hover {
   color: #fff;
 }
  
 .button {
-  background-color: #fbccbf;
-  color: #F4C14F;
-  border-color: #fbccbf;
+  background-color: #F07BA6;
+  color:   #FFF9FC; 
+  border-color: #F07BA6;  
   border-radius: 300px;
   -webkit-transition: .3s background-color linear;
   -moz-transition: .3s background-color linear;
@@ -100,13 +104,13 @@ nav a:hover {
 }
 
 .button:hover {
-  background-color:#F4A3B4;
+  background-color:#D65A84;
   border-radius: 300px;
   -webkit-transition: .1s background-color linear;
   -moz-transition: .1s background-color linear;
   -o-transition: .1s background-color linear;
   transition: .1s background-color linear;
-  color: #FBECC5;
+  color: #FFF9FC; 
 }
   
 .offer {
@@ -114,9 +118,13 @@ nav a:hover {
 }
 
 footer {
-  background-color: #F4E46B;
+  background-color:#F8C9D8;
   padding: 10px;
   width: 100%;
   position: fixed;
   bottom: 0;
+  
+}
+footer p {
+  color: #D65A84; 
 }
