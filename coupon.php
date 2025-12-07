@@ -1,23 +1,16 @@
 <?php
-$item = "Chocolate Candy";
+$item = "Chocolate Ice Cream";
 $stock = 20;
 $wanted = "8";     
 $price = "23"; 
 $subtotal = $wanted * $price; 
-$free_candy = false;
-$total = $subtotal + $free_candy;
+$free_icecream = false;
+$total = $subtotal + $free_icecream;
 $coupon = true;
 $free_coupon = $coupon;
 ?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Type Juggling</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-<h1>The Candy Store</h1>
+<?php include 'includes/header.php'; ?>
+
 <h2>Type Juggling</h2>
 <p>Item: <?= $item ?></p>
 <p>Stock available: <?= $stock ?></p>
@@ -26,9 +19,8 @@ $free_coupon = $coupon;
 <p>Price per item: <?= $price ?></p>
 <p>Subtotal: <?= $subtotal ?></p>
 
-<p>Total (+ free candy): <?= $total ?></p>
+<p>Total (+ free small sundae): <?= $total ?></p>
 
 <p>Is coupon valid? <?= $free_coupon ? 'true' : 'false' ?></p>
 
-</body>
-</html>
+<?php include 'includes/footer.php'; ?>
